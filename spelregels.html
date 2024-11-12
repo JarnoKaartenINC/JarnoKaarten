@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jarno Kaarten - Spelregels</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Algemene styling */
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f7f8fa;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        h1, h2, h3 {
+            font-family: 'Roboto', sans-serif;
+        }
+        /* Sticky Navigatiebalk styling */
+        nav {
+            position: sticky;
+            top: 0;
+            background-color: #30475e;
+            color: #fff;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            z-index: 1000;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+        }
+        nav h1 {
+            font-size: 1.8rem;
+            margin: 0;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 1.5rem;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+        nav a:hover {
+            color: #ff7f50;
+        }
+        /* Header met grote welkomstboodschap */
+        #header {
+            background-color: #222831;
+            color: #ff7f50;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+        #header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+        /* Spelregels sectie */
+        #rules-content {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 2rem 1.5rem;
+            background-color: #f0f4f8;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        #rules-content h2 {
+            text-align: center;
+            color: #30475e;
+            margin-top: 0;
+            font-size: 2rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 3px solid #ff7f50;
+            display: inline-block;
+        }
+        /* Spelregel sectie-indeling */
+        .rule-section {
+            background-color: #ffe8d6;
+            padding: 1.5rem;
+            margin-top: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .rule-section h3 {
+            color: #30475e;
+            font-size: 1.4rem;
+            margin-bottom: 1rem;
+        }
+        /* Footer styling */
+        footer {
+            background-color: #30475e;
+            color: #fff;
+            padding: 1.5rem;
+            text-align: center;
+            margin-top: 3rem;
+        }
+        footer p {
+            margin: 0.5rem 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigatiebalk -->
+    <nav>
+        <h1>Jarno Kaarten</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="spelregels.html">Spelregels</a></li>
+            <li><a href="kaarten.html">Kaarten</a></li>
+            <li><a href="nieuws.html">Nieuws</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <section id="header">
+        <h1>Spelregels van Jarno Kaarten</h1>
+    </section>
+
+    <!-- Spelregels Content -->
+    <section id="rules-content">
+        <h2>Speluitleg & Spelregels</h2>
+
+        <div class="rule-section">
+  <h3>Benodigdheden</h3>
+  <ul>
+    <li>Een deck dat bestaat uit 40 kaarten</li>
+    <li>6 levenspunten</li>
+    <li>10 actiepunten</li>
+  </ul>
+</div>
+<div class="rule-section">
+  <h3>Deck voorwaarden</h3>
+  <p>Een deck bestaat uit 40 kaarten, in een deck zitten er allerlei verschillende soorten kaarten:</p>
+  <ul>
+    <li>Standaard kaarten</li>
+    <li>Spell kaarten</li>
+    <li>Gebiedskaarten</li>
+    <li>X kaarten</li>
+    <li>M kaarten</li>
+    <li>Speciale kaarten</li>
+  </ul>
+  <p>Bij het maken van een deck zijn er een paar regels:</p>
+  <ul>
+    <li>Er mogen maar 4 dezelfde Jarno’s in het deck zitten.</li>
+    <li>Er mogen niet meer dan 5 X of M kaarten in een deck zitten.</li>
+    <li>Er mogen maar 4 gebiedskaarten in een deck zitten.</li>
+    <li>Er mag maximaal 1 speciale kaart in een deck zitten.</li>
+  </ul>
+</div>
+<div class="rule-section">
+  <h3>Voorbereidingen voor een spel</h3>
+  <ol>
+    <li>Beide spelers schudden hun deck.</li>
+    <li>Beide spelers trekken 6 kaarten van hun deck als hun beginhand.</li>
+    <li>Beide spelers plaatsen een basic kaart omgedraaid in hun actieve gebied.</li>
+    <li>Wanneer beide spelers hun kaart op het actieve gebied hebben liggen, worden de kaarten omgedraaid.</li>
+    <li>De spelers bepalen wie er start.</li>
+  </ol>
+</div>
+<div class="rule-section">
+  <h3>Beurtstructuur</h3>
+  <ol>
+    <li><strong>Kaart trekken en actiepunten verkrijgen:</strong>
+      <ul>
+        <li>Aan het begin van elke beurt trekt de speler 1 kaart van zijn deck en ontvangt 2 actiepunten.</li>
+      </ul>
+    </li>
+    <li><strong>Kaarten spelen en spell kaarten activeren:</strong>
+      <ul>
+        <li>De speler mag kaarten vanuit de bench of hand naar het actieve veld brengen. Dit kost 1 actiepunt per verplaatsing.</li>
+        <li>De speler mag tijdens deze stap ook spell kaarten gebruiken. Spell kaarten gebruiken kost geen actiepunten, tenzij dat wordt aangegeven op de kaart.</li>
+        <li>De speler kan ook gebiedskaarten spelen tijdens deze stap. Het inleggen van gebiedskaarten kost 1 actiepunt en beïnvloedt kaarten op het veld.</li>
+      </ul>
+    </li>
+    <li><strong>Actiepunten toewijzen aan kaarten:</strong>
+      <ul>
+        <li>De speler mag actiepunten aan kaarten op het actieve veld of op de bench toewijzen. Wanneer er actiepunten aan kaarten worden toegevoegd, kunnen er nieuwe aanvallen worden ontgrendeld.</li>
+      </ul>
+    </li>
+    <li><strong>Aanvallen en healen:</strong>
+      <ul>
+        <li>De speler kan deze stap kaarten gebruiken om aan te vallen of om eigen kaarten te healen. De kaarten op het veld kunnen 1 actie per beurt een actie uitvoeren, zoals aanvallen, healen of special effects gebruiken, behalve als anders wordt aangegeven.</li>
+      </ul>
+    </li>
+    <li><strong>Einde van de beurt:</strong>
+      <ul>
+        <li>Na het uitvoeren van deze 4 stappen eindigt de beurt van de speler en wordt de beurt overgedragen aan de tegenstander.</li>
+      </ul>
+    </li>
+  </ol>
+</div>
+<div class="rule-section">
+  <h3>Spelregels rondom aanvallen</h3>
+  <p>Wanneer beide spelers meerdere kaarten in het actieve veld hebben, moeten de aanvallen evenwichtig verdeeld worden. Dit betekent dat elke kaart op het actieve veld eerst één keer aangevallen moet worden voordat een andere kaart voor de tweede keer kan worden aangevallen.</p>
+  <p>Bijvoorbeeld:</p>
+  <ul>
+    <li>Als beide spelers 2 kaarten op het veld hebben, moeten beide kaarten van de tegenstander één keer worden aangevallen.</li>
+    <li>Als de tegenstander 2 kaarten heeft en jij 3, wordt één van de kaarten 2 keer aangevallen en de andere 1 keer.</li>
+  </ul>
+</div>
+<div class="rule-section">
+  <h3>Levenspunten</h3>
+  <p>Beide spelers starten met 6 levenspunten. Iedere keer dat een kaart wordt uitgeschakeld verlies je levenspunten. Wanneer er een standaard kaart wordt uitgeschakeld verlies je 1 levenspunt, maar wanneer een X/M kaart wordt uitgeschakeld verlies je 2 levenspunten. Wanneer een speler geen levenspunten meer heeft, verliest hij het spel en wint de andere speler.</p>
+</div>
+<div class="rule-section">
+  <h3>Verliezen</h3>
+  <p>Er zijn meerdere manieren om een spel te verliezen:</p>
+  <ul>
+    <li>Je hebt geen levenspunten meer over.</li>
+    <li>Je hebt geen kaarten meer om van de bench of van je hand naar het actieve veld te brengen.</li>
+  </ul>
+</div>
+<div class="rule-section">
+  <h3>Aanvullende spelregels</h3>
+  <h4>Special effects</h4>
+  <p>Sommige kaarten hebben speciale effecten, aangeduid met een rode kleur. Deze speciale effecten zijn verdeeld in twee categorieën:</p>
+  <ul>
+    <li><strong>Actief (A):</strong> Dit effect moet door de speler worden geactiveerd. De speler kan ervoor kiezen om het effect in zijn beurt te gebruiken. Dit effect kan maar een keer gebruikt worden, behalve als er staat: “dit effect heeft geen limiet”.</li>
+    <li><strong>Passief (P):</strong> Dit effect wordt automatisch geactiveerd door specifieke omstandigheden of acties in het spel, zonder dat de speler het effect moet activeren.</li>
+  </ul>
+  <h4>Geen kaarten meer in het deck</h4>
+  <p>Wanneer een speler geen kaarten meer in zijn deck heeft, kan hij geen kaarten meer trekken. Hij moet verder spelen met de kaarten die hij nog in zijn hand of op zijn veld heeft.</p>
+</div>
+<div class="rule-section">
+  <h3>Bench regels</h3>
+  <p>Kaarten op de bench zijn beschermd en kunnen niet direct door de tegenstander worden aangevallen. Echter, sommige Special Effects of Spell Cards kunnen invloed hebben op kaarten in de bench.</p>
+</div>
+<div class="rule-section">
+  <h3>Kaarten ruilen tussen de bench en het actieve veld</h3>
+  <p>Een speler mag in zijn beurt maximaal 1 kaart van de bench naar het actieve veld ruilen (door actiepunten te gebruiken) en vice versa. Dit voorkomt dat een speler voortdurend kaarten heen en weer verplaatst om aan aanvallen te ontsnappen.</p>
+</div>
+<div class="rule-section">
+  <h3>Vergeten acties</h3>
+  <p>Als een speler vergeet een verplichte actie of effect (bijvoorbeeld een passief special effect) uit te voeren, is de tegenstander verplicht dit aan te kaarten. Als beide spelers dit over het hoofd zien en de beurt is overgedragen, kan het effect niet meer worden teruggedraaid. Ook fouten zoals vergeten stappen kunnen niet meer worden teruggedraaid, dit betekent dus bijvoorbeeld wanneer een speler vergeet aan het begin van een beurt een kaart te pakken mag dit later in de beurt niet.</p>
+</div>
+<div class="rule-section">
+  <h3>Actiepunten beperking per beurt</h3>
+  <p>Een enkele kaart in het actieve veld kan maximaal 1 actiepunt per beurt krijgen van de speler. Dit voorkomt dat spelers al hun actiepunten in één kaart stoppen voor een te snelle krachtige aanval.</p>
+</div>
+<div class="rule-section">
+  <h3>Gebiedskaarten limiet</h3>
+  <p>Slechts één gebiedskaart kan actief zijn op het veld. Als een speler een nieuwe gebiedskaart speelt, wordt de oude gebiedskaart verwijderd en naar de aflegstapel gestuurd.</p>
+</div>
+<div class="rule-section">
+  <h3>Directe vernietigingseffecten</h3>
+  <p>Sommige Spell Cards of Special Effects kunnen directe vernietiging van een kaart veroorzaken, waarbij actiepunten, HP, of aanvallen geen rol spelen. Deze mogen niet tegen een X/M kaart gebruikt worden, ook mag maar 1 zo’n effect per beurt gebruikt worden.</p>
+</div>
+<div class="rule-section">
+  <h3>Herstelperiode na het verslaan van een kaart</h3>
+  <p>Wanneer een kaart verslagen wordt, kan de speler in de volgende beurt een nieuwe kaart vanuit de bench direct naar het actieve veld brengen zonder actiepunten te betalen. Dit geldt alleen als de speler minder dan 2 kaarten op het actieve veld heeft wanneer een kaart is uitgeschakeld.</p>
+</div>
+<div class="rule-section">
+  <h3>Eerste speler beperking</h3>
+  <p>De speler die als eerste begint, mag in zijn eerste beurt geen aanval uitvoeren. Hij mag wel kaarten op het veld spelen en actiepunten besteden.</p>
+</div>
+<div class="rule-section">
+  <h3>Status-effecten</h3>
+  <p>Sommige kaarten kunnen speciale status-effecten toepassen: bevriezing: de tegenstander kan in de volgende beurt niet aanvallen, poison: de kaart verliest HP zolang er geen > 3 wordt gedobbeld, of verbranden een kaart verliest HP voor 2 beurten, Deze effecten duren maximaal 3 beurten of totdat (bij poison) > 3 wordt gedobbeld.</p>
+</div>
+<div class="rule-section">
+  <h3>Starters hand te kort</h3>
+  <p>Wanneer je geen standaard kaart in jouw starter hand moet je dit aan de tegenstander laten zien, hierna mag je de 6 kaarten terugleggen, vervolgens schud je het deck opnieuw en pak je 6 nieuwe kaarten tot je wel een standaard kaart hebt.</p>
+  </div>
+	</section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Contactgegevens</p>
+        <p>Email: info@jarnokaarten.nl | Telefoon: 123-4567890</p>
+        <p>&copy; 2024 Jarno Kaarten. Alle rechten voorbehouden.</p>
+    </footer>
+</body>
+</html>
