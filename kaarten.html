@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jarno Kaarten - Kaarten</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Algemene styling */
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f7f8fa;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1, h2, h3 {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        /* Sticky Navigatiebalk styling */
+        nav {
+            position: sticky;
+            top: 0;
+            background-color: #30475e;
+            color: #fff;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            z-index: 1000;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+        }
+        nav h1 {
+            font-size: 1.8rem;
+            margin: 0;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 1.5rem;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+        nav a:hover {
+            color: #ff7f50;
+        }
+
+        /* Kaarten sectie styling */
+        #kaarten {
+            padding: 3rem 1rem;
+            background-color: #f0f4f8;
+        }
+
+        #kaarten h2 {
+            font-size: 2.5rem;
+            text-align: center;
+            color: #30475e;
+            margin-top: 0;
+            padding-bottom: 1rem;
+            border-bottom: 3px solid #ff7f50;
+            display: inline-block;
+        }
+
+        /* Grid styling voor kaarten */
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1.5rem;
+            margin-top: 2.5rem;
+        }
+
+        .card {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 1.5rem;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .card p {
+            font-size: 1.2rem;
+            color: #30475e;
+            margin-top: 1rem;
+        }
+
+        /* Footer styling */
+        footer {
+            background-color: #30475e;
+            color: #fff;
+            padding: 1.5rem;
+            text-align: center;
+            margin-top: 3rem;
+        }
+
+        footer p {
+            margin: 0.5rem 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigatiebalk -->
+    <nav>
+        <h1>Jarno Kaarten</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="spelregels.html">Spelregels</a></li>
+            <li><a href="kaarten.html">Kaarten</a></li>
+            <li><a href="nieuws.html">Nieuws</a></li>
+        </ul>
+    </nav>
+
+    <!-- Kaarten Pagina -->
+    <section id="kaarten">
+        <h2>Onze Kaarten</h2>
+        <div class="card-grid">
+            <div class="card">
+                <img src="kaart1.jpg" alt="Kaart 1">
+                <p>Kaart 1</p>
+            </div>
+            <div class="card">
+                <img src="kaart2.jpg" alt="Kaart 2">
+                <p>Kaart 2</p>
+            </div>
+            <div class="card">
+                <img src="kaart3.jpg" alt="Kaart 3">
+                <p>Kaart 3</p>
+            </div>
+            <div class="card">
+                <img src="kaart4.jpg" alt="Kaart 4">
+                <p>Kaart 4</p>
+            </div>
+            <div class="card">
+                <img src="kaart5.jpg" alt="Kaart 5">
+                <p>Kaart 5</p>
+            </div>
+            <div class="card">
+                <img src="kaart6.jpg" alt="Kaart 6">
+                <p>Kaart 6</p>
+            </div>
+            <div class="card">
+                <img src="kaart7.jpg" alt="Kaart 7">
+                <p>Kaart 7</p>
+            </div>
+            <div class="card">
+                <img src="kaart8.jpg" alt="Kaart 8">
+                <p>Kaart 8</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Contactgegevens</p>
+        <p>Email: info@jarnokaarten.nl | Telefoon: 123-4567890</p>
+        <p>&copy; 2024 Jarno Kaarten. Alle rechten voorbehouden.</p>
+    </footer>
+</body>
+</html>
