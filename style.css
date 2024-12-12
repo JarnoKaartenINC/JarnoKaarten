@@ -338,3 +338,77 @@ body, html {
     font-weight: bold;
     text-decoration: underline;
 }
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blauwalg Informatie</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <button onclick="goBack()" class="back-btn">⬅ Terug</button>
+        <h1>Blauwalg Informatie</h1>
+    </header>
+
+    <!-- Hoofdsectie -->
+    <main class="information-page">
+        <section class="general-info">
+            <h2>Wat is Blauwalg?</h2>
+            <p>
+                Blauwalg, ook wel cyanobacteriën genoemd, zijn microscopische organismen die in stilstaand water voorkomen. 
+                Onder warme omstandigheden kunnen ze zich snel vermenigvuldigen en giftige stoffen produceren. 
+                Dit kan schadelijk zijn voor zowel mensen als dieren.
+            </p>
+            <p>
+                Symptomen bij contact met besmet water zijn onder andere huidirritatie, misselijkheid, 
+                diarree en oogirritaties. Blijf daarom altijd alert en vermijd zwemmen op locaties met blauwalg.
+            </p>
+        </section>
+
+        <!-- Interview Sectie -->
+        <section class="interview">
+            <h2>Interview: Expert aan het Woord</h2>
+            <div class="interview-content">
+                <h3>"De gevaren van blauwalg worden vaak onderschat"</h3>
+                <p>
+                    In een gesprek met waterkwaliteitsexpert Dr. Jansen benadrukt hij:
+                    <em>"Blauwalg is niet alleen een esthetisch probleem; het vormt een serieuze bedreiging voor de volksgezondheid."</em>
+                </p>
+                <p>
+                    Dr. Jansen legt uit dat de toxines die door blauwalg worden geproduceerd, bij langdurige blootstelling 
+                    ernstige gezondheidsproblemen kunnen veroorzaken, zoals lever- en zenuwschade. Hij raadt aan om vooral 
+                    kleine kinderen en huisdieren uit de buurt van besmette wateren te houden.
+                </p>
+                <p>
+                    "We zien dat de klimaatverandering bijdraagt aan langere periodes van warmte, waardoor de kans op blauwalg toeneemt. 
+                    Mensen moeten zich hiervan bewust zijn en voorzorgsmaatregelen nemen."
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Navigatiebalk -->
+    <nav class="bottom-nav">
+        <button class="nav-btn" onclick="navigateTo('index.html')">Home</button>
+        <button class="nav-btn" onclick="navigateTo('kaart.html')">Kaart</button>
+        <button class="nav-btn active">Informatie</button>
+        <button class="nav-btn" onclick="navigateTo('meld.html')">Meld Blauwalgen</button>
+    </nav>
+
+    <script>
+        // Functie om terug te gaan
+        function goBack() {
+            window.history.back();
+        }
+
+        // Functie om naar een andere pagina te navigeren
+        function navigateTo(page) {
+            window.location.href = page;
+        }
+    </script>
+</body>
+</html>
